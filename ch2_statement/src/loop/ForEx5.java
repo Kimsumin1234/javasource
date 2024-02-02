@@ -4,7 +4,7 @@ public class ForEx5 {
 
   public static void main(String[] args) {
     // *
-    for (int j = 0; j < 1; j++) {
+    for (int j = 0; j < 1; j++) { // for문 1개 썼을때 표현, j < n 만 변하고 있음
       System.out.print("*");
     }
     System.out.println();
@@ -37,7 +37,7 @@ public class ForEx5 {
 
     System.out.println("\n\n\n");
 
-    for (int i = 1; i <= 6; i++) {
+    for (int i = 1; i < 6; i++) {
       for (int j = 1; j <= i; j++) {
         System.out.print("*");
       }
