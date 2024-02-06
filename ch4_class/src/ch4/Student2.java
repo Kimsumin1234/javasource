@@ -38,7 +38,7 @@ public class Student2 {
     this.addr = addr;
   }
 
-  // 생성자는 여러개 들어올수있다. 단,()안에는 달라야함
+  // 생성자는 여러개 들어올수있다. 단,()안에는 달라야함 ()안에 변수 순서만 바꾼다고 다른건 아니다, 생성자 오버로딩
   Student2(String id, String name, String addr, String hp) {
     this.id = id;
     this.name = name;
@@ -59,5 +59,37 @@ public class Student2 {
       hp +
       "]"
     );
+  }
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getAddr() {
+    return addr;
+  }
+
+  public void setAddr(String addr) {
+    this.addr = addr;
+  }
+
+  public String getHp() {
+    return hp;
+  }
+
+  public void setHp(String hp) {
+    this.hp = hp;
   }
 }

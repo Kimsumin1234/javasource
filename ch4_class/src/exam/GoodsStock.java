@@ -15,4 +15,18 @@ public class GoodsStock {
     this.goodsCode = goodsCode;
     this.stockNum = stockNum;
   }
+
+  // 재고수량 추가 메소드 addStock(int amount)
+  // 재고수량 리턴
+  int addStock(int amount) {
+    stockNum += amount;
+    return stockNum;
+  }
+
+  // 재고수량 감소 메소드 subtrackStock(int amount)
+  // 재고수량 리턴
+  int subtrackStock(int amount) {
+    stockNum -= amount;
+    return stockNum;
+  }
 }

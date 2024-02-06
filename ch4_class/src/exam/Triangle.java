@@ -13,4 +13,10 @@ public class Triangle {
     this.bassLine = bassLine;
     this.height = height;
   }
+
+  // 메소드 생성 getArea()
+  // 밑변 * 높이 / 2
+  double getArea() {
+    return bassLine * (double) height / 2;
+  }
 }
