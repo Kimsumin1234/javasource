@@ -30,4 +30,41 @@ public class Account {
     balance -= amount;
     return balance;
   }
+
+  public String getAccountNum() {
+    return accountNum;
+  }
+
+  public void setAccountNum(String accountNum) {
+    this.accountNum = accountNum;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getBalance() {
+    return balance;
+  }
+
+  public void setBalance(int balance) {
+    this.balance = balance;
+  }
+
+  @Override
+  public String toString() {
+    return (
+      "Account [accountNum=" +
+      accountNum +
+      ", name=" +
+      name +
+      ", balance=" +
+      balance +
+      "]"
+    );
+  }
 }

@@ -6,9 +6,12 @@ public class DataEx {
     Data d = new Data();
     // x 변수 초기화
     d.x = 15;
-    change(d.x); // 기본형
+
+    // change(d.x); // 기본형
     change2(d); // 참조형
+
     System.out.println("x 의 값 : " + d.x);
+    System.out.println(d);
   }
 
   // 매개변수 (지역변수에 속함)
@@ -18,11 +21,13 @@ public class DataEx {
   // 참조형 매개변수 : 변수의 값을 읽고 변경 가능
 
   // 기본형 매개변수
-  static void change(int x) {
-    x = 20;
-  }
+  // 값이 복사되는 개념
+  // static void change(int x) {
+  //   x = 20;
+  // }
 
   // 참조형 매개변수
+  // 주소를 공유하는 개념
   static void change2(Data obj) {
     obj.x = 20;
   }
