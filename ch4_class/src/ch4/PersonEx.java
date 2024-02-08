@@ -20,6 +20,6 @@ public class PersonEx {
 
     // Person.PI = 1426464; // final 변수라 수정불가
     System.out.println(Person.getPi());
-    System.out.println(person == person2); // false
+    System.out.println(person == person2); // false, 가르키는 주소가 다르기(다른 heap을 가르킨다) 때문에 펄스가 나온다
   }
 }
