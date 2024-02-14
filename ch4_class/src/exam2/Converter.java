@@ -15,7 +15,7 @@ public abstract class Converter {
   public void run() {
     Scanner scanner = new Scanner(System.in);
     System.out.println(
-      getSrcString() + "을" + getDestString() + "로 바꿉니다."
+      getSrcString() + "을 " + getDestString() + "로 바꿉니다."
     );
     System.out.print(getSrcString() + "을 입력하세요 >>> ");
     double va1 = scanner.nextDouble();

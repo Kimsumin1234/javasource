@@ -4,6 +4,6 @@ public class Add extends Calc {
 
   @Override
   int calculate() {
-    return getA() + getB();
+    return a + b;
   }
 }

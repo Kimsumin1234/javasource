@@ -7,8 +7,12 @@ public class Odd extends OddDetector {
   }
 
   @Override
-  boolean isOdd() {
-    return getN() % 1 == 0.0;
+  public boolean isOdd() {
+    if (getN() % 1 == 0.0) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
 // n 멤버 변수 int 타입

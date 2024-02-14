@@ -2,7 +2,7 @@ package exam2;
 
 public abstract class OddDetector {
 
-  int n;
+  private int n;
 
   public OddDetector(int n) {
     this.n = n;
@@ -12,5 +12,5 @@ public abstract class OddDetector {
     return n;
   }
 
-  abstract boolean isOdd();
+  public abstract boolean isOdd();
 }
