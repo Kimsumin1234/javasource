@@ -50,6 +50,8 @@ public class MemberMain {
           MemberDTO readDto = new MemberDTO();
           readDto.setUserId(userid);
           readDto.setPassword(password);
+          // System.out.println("\n\n==== 조회 회원 정보 ====");
+          // System.out.println(readDto);
           MemberDTO row = memberDAO.getRow(userid, password);
           System.out.println("\n\n==== 조회 회원 정보 ====");
           System.out.println("아이디 : " + row.getUserId());
